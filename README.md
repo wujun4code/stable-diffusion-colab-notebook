@@ -32,6 +32,15 @@
 
 ```
 
+## extra models
+
+```
+!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/yesyeahvh/ulzzang-6500/resolve/main/ulzzang-6500.pt -d /content/stable-diffusion-webui/embeddings -o ulzzang-6500.pt
+!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/datasets/Nerfgun3/bad_prompt/resolve/main/bad_prompt_version2.pt -d /content/stable-diffusion-webui/embeddings -o bad_prompt.pt
+!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/5119 -d /content/stable-diffusion-webui/embeddings -o pureerosface_v1.pt
+!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt -d /content/stable-diffusion-webui/models/VAE -o vae-ft-mse-840000-ema-pruned.ckpt
+```
+
 ## add api 
 
 ```
