@@ -13,7 +13,7 @@
 ## extra Lora
 
 ```
-!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/31284 -d /content/stable-diffusion-webui/models/Lora/ -o koreanDollLikeness.safetensors
+!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/31284 -d /content/stable-diffusion-webui/models/Lora/ -o koreanDollLikeness_v20.safetensors
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/aimainia/japaneseDollLikeness_v10/resolve/main/japaneseDollLikeness_v10.safetensors -d /content/stable-diffusion-webui/models/Lora/ -o japaneseDollLikeness_v10.safetensors
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/opsopus/taiwanDollLikeness/resolve/main/taiwanDollLikeness_v10.safetensors -d /content/stable-diffusion-webui/models/Lora/ -o taiwanDollLikeness_v10.safetensors
 
